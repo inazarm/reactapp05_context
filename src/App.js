@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import ValueContext from './ValueContext';
 import Parent from './Parent';
