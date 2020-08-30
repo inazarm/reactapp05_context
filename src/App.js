@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import ValueContext from './ValueContext';
-import Parent from './Parent';
+import Parent from './Parent'; 
 
 function App() {
   let increaseNo=useState(40);
