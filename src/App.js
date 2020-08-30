@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import ValueContext from './ValueContext';
 import Parent from './Parent';
 
 function App() {
+  let increaseNo=useState(40);
   return (
-    <ValueContext.Provider value={70}>
+    <ValueContext.Provider value={increaseNo}>
       <div>
         Hello World!
         <Parent></Parent>
